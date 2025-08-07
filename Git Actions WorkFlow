@@ -1,0 +1,47 @@
+WORD WANDER
+Guess the word. Challenge your mind. Have fun!
+
+Word Wander is a fun and interactive wordguessing game built using HTML, CSS, and JavaScript.
+
+Features
+Real-time feedback
+
+Hint system for difficult words
+
+Score tracker
+
+Improves thinking and vocabulary
+
+Mobile-friendly design
+
+Technologies Used
+![HTML5] [CSS3] [JavaScript]
+(HTML, CSS, JavaScript)
+
+Test your vocabulary
+Play with clues and hints
+💡 Score tracker
+💡 Improves thinking and vocabulary
+
+Team Members:    Neha Fathima
+                Sowmya Sri
+                Bhanu Sowmya
+                Uday Keerthi
+name: Poster Upload Workflow
+
+on:
+  push:
+    branches:
+      - main
+      - poster
+
+jobs:
+  poster-upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Display success message
+        run: echo "✅ Poster Uploaded Successfully"
